@@ -1,5 +1,5 @@
 
-function abc(){ 
+function alphabetGenerator(){ 
     document.getElementById('alphabet_auto_generated').addEventListener('click', function(){
         const alphabet=document.getElementById('alphabet'); 
         const alphabets='abcdefghijklmnopqrstuvwxyz';
@@ -11,4 +11,4 @@ function abc(){
     return alphaLetter
 }
 
-abc();
+alphabetGenerator();
